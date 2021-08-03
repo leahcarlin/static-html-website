@@ -12,7 +12,8 @@ body {
     width: 800px;
     margin: 20px auto;
     background-image: url("../images/windmills.jpg");
-    background-size: 1200px auto;
+    background-repeat: repeat;
+    background-size: 1800px auto;
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     text-align: center;
@@ -39,4 +40,15 @@ li {
 }
 a {
     color: #CEB2A1;
+    text-decoration: none;
+}
+.fab {
+    font-size: 1.5em;
+    color:#CEB2A1;
+}
+.social-media-icons {
+    margin-top: 30px;
+}
+.social-media-icons li {
+    display: inline;
 }
