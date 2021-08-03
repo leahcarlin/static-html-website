@@ -24,6 +24,7 @@ body {
     background-color: #7F6E61;
     border: 5px solid #413E30;
     padding: 20px;
+    margin-top: 50px;
 }
 img {
     display: block;
@@ -43,7 +44,7 @@ a {
     text-decoration: none;
 }
 .fab {
-    font-size: 1.5em;
+    font-size: 2em;
     color:#CEB2A1;
 }
 .social-media-icons {
