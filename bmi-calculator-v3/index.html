@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMI Calculator</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla&family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <h1>On Track to Becoming a Healthier Version of You</h1>
+    <div class="row">
+        <h2>BMI Calculator</h2>
+        <form name="health-form">
+            <label for="age">Age:</label>
+            <input type="text" id="age-el" name="age" min="20" required><br>
+            <label for="gender">Gender (type 'm' or 'f'):</label>
+            <input type="text" id="gender-el" name="gender" required><br>
+            <label for="height">Height in meters (ex: '1.7'):</label>
+            <input type="text" id="height-el" name="height" required><br>
+            <label for="weight">Weight in kilograms (ex: '65'):</label>
+            <input type="text" id="weight-el" name="weight" required><br>
+            <label for="exercise">Do you exercise daily? (type 'yes' or 'no'):</label>
+            <input type="text" id="exercise-el" name="exercise" required><br>
+            <input type="button" id="calculate-btn" name="button" value="Calculate"><br>
+        </form>
+    </div>
+    <div class="row-results">
+        <h2>Facing the Facts</h2>
+        <p id="facts-1"></p>
+        <p id="facts-2"></p>
+        <p id="facts-3"></p>
+    </div>
+    <div class="row-results">
+        <h2>Diet Plan</h2>
+        <p id="diet-1"></p>
+        <p id="diet-2"></p>
+    </div>
+    <div id="btn-div">
+        <button id="start-over-btn">Start Over</button>
+    </div>
+
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
